@@ -131,6 +131,12 @@ nav a {
     margin: 0 auto;
 
 }
+.gerak{
+    width:150px;
+    animation: geser 2s infinite alternate;
+}
 
-
-
+@keyframes geser {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(20px); }
+}
