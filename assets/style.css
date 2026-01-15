@@ -133,13 +133,13 @@ nav a {
 
 }
 .gerak{
-    width:150px;
-    animation: geser 2s infinite alternate;
+    width:200px;
+    animation: naik 2s infinite alternate;
 }
 
-@keyframes geser {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(20px); }
+@keyframes naik {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
 }
 .footer{
      position: fixed;
@@ -150,4 +150,15 @@ nav a {
     color: black;
     text-align: center;
     padding: 10px 0;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 348px;
+    height: 300px;
+    margin: 40px auto;
+    gap: 20px;
+    right:-120px;
+    overflow: hidden; /*rapi */
 }
