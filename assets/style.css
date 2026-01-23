@@ -19,6 +19,7 @@ header {
 .container {
     display: flex;
     align-items: center;
+    
 }
 
 /* LOGO */
@@ -79,7 +80,7 @@ nav a {
 
 }
 .btn{
-    background-color:#1B211A;
+    background-color:#6f4e37;
     color:white;
     border:none;
     padding:10px 15px;
@@ -90,7 +91,7 @@ nav a {
 }
 
 .about{
-    background-color:#AA2B1D; 
+    background-color:aquamarine; 
     color:aquamarine;
     text-align: center;
     font-family: Arial,sans-serif;
@@ -162,4 +163,18 @@ nav a {
     right:-120px;
     overflow: hidden; /*rapi */
     padding-right: 5px;
+}
+
+
+.box{
+    margin-top: -290px;
+    margin-left: auto;
+    color: white;
+    background-color: #6f4e37;
+    padding: 10px 15px;
+    cursor: pointer;
+
+    display: inline-block;
+    position: relative;
+    z-index: 999;
 }
