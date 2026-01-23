@@ -161,4 +161,5 @@ nav a {
     gap: 20px;
     right:-120px;
     overflow: hidden; /*rapi */
+    padding-right: 5px;
 }
