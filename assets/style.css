@@ -19,7 +19,10 @@ header {
 .container {
     display: flex;
     align-items: center;
-    
+    padding: 5px;
+    display: flex;
+    align-items: center;
+
 }
 
 /* LOGO */
@@ -40,18 +43,27 @@ header {
 }
  
 nav {
-    margin-left: auto; 
+    display: flex;
+  gap: 15px;
+  padding: 10px;
 }
 
 nav button {
     background-color: white;
     text-align: center;
-    color: blue;
+    color: black;
     margin-left: 10px;
 }
 
 nav a {
-    color: black;
+    /* color: black; */
+ display: inline-block;
+  padding: 10px 20px;
+  background-color: #6f4e37;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
     text-decoration: none;
 }
 
@@ -110,20 +122,16 @@ nav a {
     gap: 20px;
 }
 
-
-.container {
-    display: flex;
-    align-items: center;
-}
-
 /* LOGO */
 .logo {
     width: 40px;   /* logo diperkecil */
     height: auto;
-    margin-top: -20px;
-    top: -10px;
-    right: 200px;
-    position: relative;
+    top: -10px;width: 40px;
+    height: auto;
+    position: static; /* reset */
+    margin: 0;
+    
+   
 }
 
 .footer-wa{
@@ -178,3 +186,5 @@ nav a {
     position: relative;
     z-index: 999;
 }
+
+
