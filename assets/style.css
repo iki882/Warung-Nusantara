@@ -174,17 +174,5 @@ nav a {
 }
 
 
-.box{
-    margin-top: -290px;
-    margin-left: auto;
-    color: white;
-    background-color: #6f4e37;
-    padding: 10px 15px;
-    cursor: pointer;
-
-    display: inline-block;
-    position: relative;
-    z-index: 999;
-}
 
 
